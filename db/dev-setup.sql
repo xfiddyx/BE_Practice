@@ -3,6 +3,15 @@ CREATE DATABASE companies_data;
 
 \c companies_data;
 
+CREATE TABLE owners
+(
+ owner_id SERIAL PRIMARY KEY,
+ forename VARCHAR(50),
+ surname VARCHAR(50),
+ age INT NOT NULL,
+ residence VARCHAR (250)
+);
+
 CREATE TABLE companies
 (
  company_id SERIAL PRIMARY KEY,
@@ -11,16 +20,7 @@ CREATE TABLE companies
  name VARCHAR (50),
  bs VARCHAR (250),
  head_office VARCHAR(250)
-)
-
-CREATE TABLE owners
-(
- owner_id SERIAL PRIMARY KEY,
- forename VARCHAR(50),
- surname VARCHAR(50),
- age INT NOT NULL,
- residence VARCHAR (250)
-)
+);
 
 CREATE TABLE products
 (
@@ -28,4 +28,4 @@ CREATE TABLE products
  product VARCHAR (50),
  cost_of_product INT NOT NULL,
  company_id INT REFERENCES companies(company_id)
-)
+);

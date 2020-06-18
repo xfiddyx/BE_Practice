@@ -6,8 +6,11 @@
   "scripts": {
     "fetch-dev-data": "node ./utils/fetch-dev-data.js",
     "setup-test-db": "psql -f ./db/test-setup.sql",
+    "setup-dev-db": "psql -f ./db/dev-setup.sql",
     "seed-test": "npm run setup-test-db && NODE_ENV=test knex seed:run",
-    "test": "npm run seed-test && NODE_ENV=test mocha spec"
+    "seed-dev": "npm run setup-dev-db && knex seed:run",
+    "test": "npm run seed-test && NODE_ENV=test mocha spec",
+    "dev": "NODE_ENV=DEV nodemon listen.js"
   },
   "repository": {
     "type": "git",
