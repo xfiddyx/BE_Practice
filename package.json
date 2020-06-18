@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "fetch-dev-data": "node ./utils/fetch-dev-data.js",
     "setup-test-db": "psql -f ./db/test-setup.sql",
-    "seed-test": "npm run setup-test-db && NODE_ENV=test knex seed:run"
+    "seed-test": "npm run setup-test-db && NODE_ENV=test knex seed:run",
+    "test": "npm run seed-test && NODE_ENV=test mocha spec"
   },
   "repository": {
     "type": "git",
