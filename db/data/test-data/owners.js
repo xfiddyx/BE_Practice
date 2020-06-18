@@ -1,0 +1,98 @@
+module.exports = [
+  {
+    forename: 'Rickey',
+    surname: 'Heathcote',
+    age: 58,
+    residence: 'New Deondrehaven',
+  },
+  {
+    forename: 'Casper',
+    surname: 'Hermann',
+    age: 18,
+    residence: 'South Sierraside',
+  },
+  {
+    forename: 'Houston',
+    surname: 'Ledner',
+    age: 26,
+    residence: 'Colemanport',
+  },
+  {
+    forename: 'Ashlee',
+    surname: 'Hahn',
+    age: 48,
+    residence: 'Port Nickolas',
+  },
+  {
+    forename: 'Catherine',
+    surname: 'Rogahn',
+    age: 23,
+    residence: 'Colemanport',
+  },
+  {
+    forename: 'Alice',
+    surname: 'Rolfson',
+    age: 74,
+    residence: 'Port Nickolas',
+  },
+  {
+    forename: 'Eudora',
+    surname: 'Kemmer',
+    age: 73,
+    residence: 'South Sierraside',
+  },
+  {
+    forename: 'Katelyn',
+    surname: 'Abernathy',
+    age: 48,
+    residence: 'North Prince',
+  },
+  {
+    forename: 'Jermey',
+    surname: 'Pollich',
+    age: 47,
+    residence: 'North Prince',
+  },
+  {
+    forename: 'Lottie',
+    surname: 'Anderson',
+    age: 20,
+    residence: 'Keyonchester',
+  },
+  {
+    forename: 'Madelynn',
+    surname: 'Gerhold',
+    age: 18,
+    residence: 'Rautown',
+  },
+  {
+    forename: 'Brendan',
+    surname: 'Frami',
+    age: 73,
+    residence: 'New Fredrickside',
+  },
+  {
+    forename: 'Theresia',
+    surname: 'Conn',
+    age: 74,
+    residence: 'Jaydechester',
+  },
+  {
+    forename: 'Rowland',
+    surname: 'Price',
+    age: 65,
+    residence: 'South Brianmouth',
+  },
+  {
+    forename: 'Arden',
+    surname: 'Hegmann',
+    age: 35,
+    residence: 'North Prince',
+  },
+  {
+    forename: 'Brayan',
+    surname: 'Spinka',
+    age: 69,
+    residence: 'New Tiaberg',
+  },
+];
